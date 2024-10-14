@@ -20,6 +20,8 @@ WORKDIR /app
 # Copy application files
 COPY . /app
 
+EXPOSE 8000
+
 # Copy the entrypoint script into the container
 COPY entrypoint.sh /app/entrypoint.sh
 
