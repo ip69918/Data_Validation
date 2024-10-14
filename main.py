@@ -15,12 +15,13 @@ class ValidateRequest(BaseModel):
     payload_schema: str
     payload_content_base64: str
 
-@app.post("/validate-data/")
-async def validate_base64_data(request: ValidateRequest):
-    """ API endpoints for validating data.
+
+""" API endpoints for validating data.
         A request model with payload_format, payload_schema and payload_content_base64
         Return response with validation results.
-    """
+"""
+@app.post("/validate-data/")
+async def validate_base64_data(request: ValidateRequest):
 
     validator = DataValidator(request.payload_format, request.payload_schema, request.payload_content_base64)
     result = validator.validate()
