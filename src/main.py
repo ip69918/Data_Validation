@@ -1,7 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from urllib3 import request
 
-from validators import DataValidator
+#from validators import DataValidator
+from src.validators import DataValidator
 from pydantic import BaseModel
 
 app = FastAPI()
