@@ -43,7 +43,7 @@ If you are running the project locally without Docker, you need to install the r
 ### Clone the Repo:
 - On windows:
 ``` bash
-git clone -b Python_Version <url>
+git clone -b Python_Versions <url>
 ```
 
 ### Change the Directory where Dockerfile present:
