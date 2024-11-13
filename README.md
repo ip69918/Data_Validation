@@ -6,8 +6,8 @@
 We have developed a robust data validation application that provides an efficient platform for validating datasets against specified schemas. The application is designed to validate data based on three key parameters:
 
 1.**file_path**: The path to the data file you wish to validate. <br/>
-2.**paylaod_format**: The format of the file, either csv or json. <br/>
-3.**paylaod_schema**: A valid schema against which the data will be validated.
+2.**payload_format**: The format of the file, either csv or json. <br/>
+3.**payload_schema**: A valid schema against which the data will be validated.
 
 - Dockerized Environment: The entire application is containerized using Docker, which makes it easy to set up and run across any system. It eliminates dependencies and ensures a consistent environment across development, testing, and production.
 
