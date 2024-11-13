@@ -72,7 +72,7 @@ def data_validate(file_path, payload_format, payload_schema):
 
 # Example usage
 if __name__ == "__main__":
-    file_path = r"C:\Users\ishan\OneDrive\Desktop\testing.csv"
+    file_path = r"C:\Users\testing.csv"
     payload_format = "csv"
     payload_schema = { }     #{"Medication": "object", "Units": "int64"}  # Ensure this is a dict, not a set
     data_validate(file_path, payload_format, payload_schema)
